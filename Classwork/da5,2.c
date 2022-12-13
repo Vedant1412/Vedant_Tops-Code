@@ -2,12 +2,12 @@
 void main()
 {
 	//Initialization
-	int i = 100;
+	int i = 1;
 	
-	while(i>=1)
+	while(i<=1000)
 	{
 		printf("%d\n",i);
-	    i--; //Updation}
+	    i++; //Updation}
 	
  }
  
