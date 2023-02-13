@@ -1,3 +1,4 @@
+
 #include<iostream>
 using namespace std;
 
@@ -39,7 +40,8 @@ int main()
   cin>>age;
   	
   	sample obj4(fname,lname,age);
-  
+  	sample obj5(fname,lname,age);
+  	sample obj6(fname,lname,age);
   
 	return 0;
 	

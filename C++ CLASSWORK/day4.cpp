@@ -14,7 +14,9 @@ int main()
 // obj is name of object 
 demo obj;
 cout<<obj.number;
-
+cout<<obj.number;
+cout<<obj.number;
+cout<<obj.number;
 return 0;
 	
 }

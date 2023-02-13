@@ -16,16 +16,29 @@ class election
         	cout<<"your age is : "<<age;
         
 		}
-  
-  	
+};
+
+class election1:public election{
+
+	public:
+       int no;
+	   void getno()
+	   {
+	   		cout<<"enter your no :"	;
+	   		cin>>no;
+	   }		
+	   void showno()
+	   {
+	   	   	cout<<"your no is :"<<no;
+	   }
 };
 
 int main()
 {
-	election obj;
+	election1 obj;
 	obj.getage();
     obj.showage();
 
 
-return 0;
+return 0;  
 }
