@@ -37,7 +37,7 @@ class Employee{
 int main()
 {
     Address a1("\nC-143,sec24","\nnoida","\nmp");
-	Employee e1(10111,"\nvedant",&a1);
+	Employee e1(10111,"\nVedant",&a1);
 	e1.display();	
 	return 0;
 }

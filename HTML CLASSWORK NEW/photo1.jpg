@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!-- saved from url=(0098)file:///C:/Users/hp/Documents/Github/Vedant_Tops-Code/HTML%20CLASSWORK%20NEW/table%20task%201.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+
+       <tbody><tr>
+        <th>Preview</th>
+        <th>Type</th>
+        <th>Processor</th>
+        <th>Graphic card</th>
+        <th>In stock</th>
+
+       </tr>
+       
+       <tr>
+        <td>Laptop 1</td>
+        <td> AB8AC9</td>
+        <td> Intel Atom</td>
+        <td> Nvidia</td>
+        <td> YES</td>
+       </tr>
+
+       <tr>
+        <td>Laptop 2</td>
+        <td>GS8DGF</td>
+        <td>AMD</td>
+        <td>ATI</td>
+        <td>YES</td>
+      </tr>
+      
+      <tr>
+        <td>Laptop 3</td>
+        <td>KGI862A</td>
+        <td>UNSPECFIED</td>
+        <td>UNSPECIFIED</td>
+        <td> NO </td>
+        
+
+
+
+      </tr>
+
+
+
+    </tbody></table>
+
+
+
+
+
+</body></html>
