@@ -15,7 +15,7 @@ Attributes are used to modify the behavior or appearence of an element and are i
 
 --> Void elements in HTML are elements that do not require an end tag. They are self-closing and usually represented by a single tag.
 Examples of void elements include the 
-<br>and many more.
+<br>,<img>,<embed>,<hr> many more.
 
 4. What are HTML Entities?
 
@@ -79,8 +79,12 @@ in which if you want to merge two row or two coloumn.
 
 15. How to insert a picture into background image of web page?
 
-
-
+--> To set background image of any page ,photo or symbol we have to us css tag to add background-image and write on top of that.
+for example:
+<body>
+background image="photo.jpg"
+<h1> HELLO </h1>
+</body>
 
 16.How are active links different from normal links?
 
