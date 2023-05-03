@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .x 
+        {
+            height: 100px;
+            width: 100px;
+            background: gray;
+            font-size: 10px;
+            color:red;
+
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1 id="a">
+        hello
+    </h1>
+
+    <script>
+
+
+        h1_tag = document.getElementById('a');
+
+        // varname.style.property = "value";
+
+        // ==== Inline CSS ===
+
+        // h1_tag.style.color ="red";
+        // h1_tag.style.height ="200px";
+        // h1_tag.style.width ="200px";
+        // h1_tag.style.background ="lightblue";
+        // h1_tag.style.fontSize ="red";
+
+        // h1_tag.classList.add('x');//Internal CSS
+
+        h1_tag.className = "x";//Internal CSS
+
+        console.log(h1_tag)
+
+    </script>
+
+
+    
+</body>
+</html>
