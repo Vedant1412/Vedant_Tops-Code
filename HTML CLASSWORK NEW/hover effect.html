@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main 
+        {
+            height: 80px;
+            width: 200px;
+            background: transparent;
+
+            margin: 100px auto;
+            position: relative;
+
+            text-align: center;
+            line-height: 80px;
+            z-index: 0;
+            overflow: hidden;
+            font-size: 25px;
+            font-weight: bold;
+            font-family: cursive;
+            border-radius: 50px;
+            box-shadow: 0 0 50px darkgoldenrod inset;
+            
+        }
+
+        .effect 
+        {
+            height: 80px;
+            width: 200px;
+            background: linear-gradient(lightblue,lightcoral);
+
+            position: absolute;
+            top:0;
+            left:-100%;
+
+            transition: 1s;
+            z-index: -1;
+           
+        }
+
+        .main:hover .effect 
+        {
+            left:0;
+            /* transition: 1s; */
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="main">
+
+        Hello
+        <div class="effect"></div>
+    </div>
+
+    
+    
+</body>
+</html>
